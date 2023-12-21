@@ -1,5 +1,9 @@
 # Go-Harbour
 
+ go build -buildmode=c-archive test.go
+
+ gcc -pthread test.c foo.a -o test
+
 https://github.com/Com1Software/The-Harbour-Project
 
 https://stackoverflow.com/questions/32215509/using-go-code-in-an-existing-c-project

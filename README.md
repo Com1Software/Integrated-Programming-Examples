@@ -2,7 +2,7 @@
 
  go build -buildmode=c-archive test.go
 
- gcc -pthread test.c foo.a -o test
+ gcc -pthread test.c test.a -o test
 
 https://github.com/Com1Software/The-Harbour-Project
 

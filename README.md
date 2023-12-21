@@ -6,6 +6,8 @@
 
 https://github.com/Com1Software/The-Harbour-Project
 
+http://www.elektrosoft.it/tutorials/harbour-how-to/harbour-how-to.asp#clanguage
+
 https://stackoverflow.com/questions/32215509/using-go-code-in-an-existing-c-project
 
 http://www.elektrosoft.it/tutorials/harbour-how-to/harbour-how-to.asp#clanguage

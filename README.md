@@ -2,6 +2,8 @@
 
 https://forum.golangbridge.org/t/use-python-in-go-code/30503
 
+https://stackoverflow.com/questions/71749797/cgo-undefined-reference-to-c-function
+
 https://github.com/DataDog/go-python3/issues/24
 
 https://www.datadoghq.com/blog/engineering/cgo-and-python/

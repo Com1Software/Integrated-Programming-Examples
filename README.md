@@ -1,5 +1,7 @@
 # Notes
 
+https://github.com/python/cpython
+
 https://forum.golangbridge.org/t/use-python-in-go-code/30503
 
 https://stackoverflow.com/questions/71749797/cgo-undefined-reference-to-c-function

@@ -2,6 +2,8 @@
 
 https://github.com/python/cpython
 
+https://poweruser.blog/embedding-python-in-go-338c0399f3d5
+
 https://forum.golangbridge.org/t/use-python-in-go-code/30503
 
 https://stackoverflow.com/questions/71749797/cgo-undefined-reference-to-c-function

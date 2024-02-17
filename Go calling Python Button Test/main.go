@@ -10,9 +10,13 @@ import (
  
  func main() {
 
-   pycodeGo := "print('hello world')\n" 
-   pycodeGo = pycodeGo + "print('hello world Two')" 
+   pycodeGo := "print('Start Button Test')\n" 
+   pycodeGo = pycodeGo + "from gpiozero import Button\n" 
+   pycodeGo = pycodeGo + "button = Button(2)\n" 
+   pycodeGo = pycodeGo + "button.wait_for_press()\n" 
+   pycodeGo = pycodeGo + "print('You pushed the Button!')\n" 
    
+
    defer C.Py_Finalize()
    C.Py_Initialize()
    pycodeC := C.CString(pycodeGo)

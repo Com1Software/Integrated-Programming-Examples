@@ -1,7 +1,7 @@
  1 package main
  2 
- 3 // #cgo pkg-config: python3
- 4 // #include <Python.h>
+// #cgo pkg-config: python3-embed
+// #include "/usr/include/python3.11/Python.h"
  5 import "C"
  6
  7 import (

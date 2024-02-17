@@ -1,7 +1,7 @@
 package main
 
-// #cgo pkg-config: python-3.7.7
-// #include <Python.h>
+// #cgo pkg-config: python3-embed
+// #include "/usr/include/python3.11/Python.h"
 import "C"
 import "fmt"
 

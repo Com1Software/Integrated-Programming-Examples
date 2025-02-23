@@ -1,14 +1,16 @@
+// main.go
 package main
 
-import (
-	"C"
-	"fmt"
-)
+/*
+#include <stdio.h>
+#include <stdlib.h>
+#include "hello.c"
+*/
+import "C"
+import "unsafe"
 
-//export PrintInt
-func PrintInt(x int) {
-	fmt.Println("Hello world")
-	fmt.Println(x)
+func main() {
+	name := C.CString("In the Go Program....")
+	defer C.free(unsafe.Pointer(name))
+	C.SayHello(name)
 }
-
-func main() {}

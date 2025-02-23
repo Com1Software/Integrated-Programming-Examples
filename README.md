@@ -1,5 +1,7 @@
 # Notes
 
+go build -x main.go
+
 https://github.com/python/cpython
 
 https://gpiozero.readthedocs.io/en/stable/recipes.html
